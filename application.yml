@@ -1,3 +1,12 @@
+gb.api:
+  endpoint:
+    manufacturer-url: 'http://${gb.api.endpoint.base-uri}/api/v1/manufacturer'
+  connection:
+    connectTimeout: 60 # Seconds
+    readTimeout: 10 # Seconds
+    period: 3000 # Millis
+    maxPeriod: 5000 # Millis
+    maxAttempts: 3
 spring.datasource:
   url: "jdbc:postgresql://localhost:5432/gb_shop"
   username: '{cipher}AQAqJDj5SQHhRvILUJowMvgDuJZky7lUU4a3AIv25zdrZBytM0FWE0oa6XYIEMuxQ4BP9uU4UcGnYJbalJhCh56k3PejemxIvpdCLjUzgywDFuOgLXp1q9351CvLw72ZICPXcv8CRUIO3A3b6mNnAz1BXhCOXh9J3cxXRc30E+rLnt/kCO4aa/KnhTH1hrnz49www6trhsSzb/nqzUAE3bpoKL0KqCUw/2cWG40fWcI80iSg18slWQxXPM9JASFtSdRwGbhqZOj6Cxx/+JsKTmM9JQ6daU1Rw5TKJEM4m+aXALU6pcC0ELxfV+WvnHKtRfdvrg8iVVp4pC8kdH73G4vMeX6zhGJRRJno8EqCKB2ysa7NytPpPNdb7U+gULXd6II='
