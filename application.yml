@@ -9,7 +9,3 @@ gb.api:
     period: 3000 # Millis
     maxPeriod: 5000 # Millis
     maxAttempts: 3
-spring.datasource:
-  url: "jdbc:postgresql://localhost:5432/gb_shop"
-  username: '{cipher}AQC8eLS7948Ekiv7tvJfAzp+gtZknZqDBvUeoQZwDPNT81Ofmp3Kr4YBQux4kXLMDNw/ZhlQlg44lMR6tiWdimxp8CJ1nigR1Mp2d+6lOcD4uc0wWqHGrjHu8DpZ1XqhglaHgk7s30itBL4j4p8uvJKJqTs3OJMhxuST69Q8FpdXbPH31uzCmttxXmikkSlIAnq3sZtRP6KWNOKFJlW5SVpoCbq1BXz9dwqjFJNhYmcFdVDeT1NEBj/AS6NDjBT+MzJYdZW7UHO+cHZWcjVU93pKDseLQIrYdbi2f+XhS72UGJy6yxH5+gynL2MK+OSXmphrDGVqmFaCYN2WayeD6Td9nUC8j3vJPYApANqfvrRldRHZUvQ84PieqenlYUyY4fA='
-  password: '{cipher}AQC8eLS7948Ekiv7tvJfAzp+gtZknZqDBvUeoQZwDPNT81Ofmp3Kr4YBQux4kXLMDNw/ZhlQlg44lMR6tiWdimxp8CJ1nigR1Mp2d+6lOcD4uc0wWqHGrjHu8DpZ1XqhglaHgk7s30itBL4j4p8uvJKJqTs3OJMhxuST69Q8FpdXbPH31uzCmttxXmikkSlIAnq3sZtRP6KWNOKFJlW5SVpoCbq1BXz9dwqjFJNhYmcFdVDeT1NEBj/AS6NDjBT+MzJYdZW7UHO+cHZWcjVU93pKDseLQIrYdbi2f+XhS72UGJy6yxH5+gynL2MK+OSXmphrDGVqmFaCYN2WayeD6Td9nUC8j3vJPYApANqfvrRldRHZUvQ84PieqenlYUyY4fA='
