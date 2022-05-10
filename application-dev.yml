@@ -3,3 +3,5 @@ spring:
   artemis:
     user: 'artemis'
     password: 'simetraehcapa'
+    embedded:
+      queues: 'order-changed'
