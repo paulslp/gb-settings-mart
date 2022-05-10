@@ -1,9 +1,13 @@
 gb.api:
   endpoint:
-    manufacturer-url: 'http://${gb.api.endpoint.base-uri}/api/v1/manufacturer'
-    category-url: 'http://${gb.api.endpoint.base-uri}/api/v1/category'
-    product-url: 'http://${gb.api.endpoint.base-uri}/api/v1/product'
-    order-url: 'http://${gb.api.endpoint.base-uri}/api/v1/order'
+    manufacturer-internal-url: 'http://${gb.api.endpoint.base-uri}:8082/internal/api/v1/manufacturer'
+    category-internal-url: 'http://${gb.api.endpoint.base-uri}:8082/internal/api/v1/category'
+    product-internal-url: 'http://${gb.api.endpoint.base-uri}:8082/internal/api/v1/product'
+    order-internal-url: 'http://${gb.api.endpoint.base-uri}:8082/internal/api/v1/order'
+    manufacturer-external-url: 'http://${gb.api.endpoint.base-uri}:8081/external/api/v1/manufacturer'
+    category-external-url: 'http://${gb.api.endpoint.base-uri}:8081/external/api/v1/category'
+    product-external-url: 'http://${gb.api.endpoint.base-uri}:8081/external/api/v1/product'
+    order-external-url: 'http://${gb.api.endpoint.base-uri}:8081/external/api/v1/order'
   connection:
     connectTimeout: 60 # Seconds
     readTimeout: 10 # Seconds
