@@ -8,8 +8,8 @@ gb.api:
     category-external-url: 'http://${gb.api.endpoint.base-uri}:8081/external/api/v1/category'
     product-external-url: 'http://${gb.api.endpoint.base-uri}:8081/external/api/v1/product'
     order-external-url: 'http://${gb.api.endpoint.base-uri}:8081/external/api/v1/order'
-    authentication-external-url: 'http://${gb.api.endpoint.base-uri}:8082/internal/api/v1/auth'
-    user-external-url: 'http://${gb.api.endpoint.base-uri}:8082/internal/api/v1/user'
+    authentication-external-url: 'http://${gb.api.endpoint.base-uri}:8081/external/api/v1/auth'
+    user-external-url: 'http://${gb.api.endpoint.base-uri}:8081/external/api/v1/user'
   connection:
     connectTimeout: 60 # Seconds
     readTimeout: 10 # Seconds
